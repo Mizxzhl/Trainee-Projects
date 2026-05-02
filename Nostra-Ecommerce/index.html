@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nostra</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- Nav bar-->
+    <nav class="navbar">
+      <h1>Nostra</h1>
+
+      <div class="navbar-links">
+        <ul class="navbar link">
+          <a href="">Home</a>
+        </ul>
+        <ul class="navbar link">
+          <a href="">Collections</a>
+        </ul>
+        <ul class="navbar link">
+          <a href="">Contact Us</a>
+        </ul>
+      </div>
+
+      <div class="navbar-menu-toggle" onclick="showNavbar()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+
+    <!--Side navbra-->
+    <div class="side-navbar">
+      <p style="text-align: right" onclick="closeNavbar()">
+        <i class="fa-solid fa-xmark"></i>
+      </p>
+
+      <div class="side-navbar-links">
+        <ul class="side-navbar-link">
+          <a href="">Home</a>
+        </ul>
+        <ul class="side-navbar-link">
+          <a href="">Collections</a>
+        </ul>
+        <ul class="side-navbar-link">
+          <a href="">Contact Us</a>
+        </ul>
+      </div>
+    </div>
+
+    <!--Header-->
+    <div class="header">
+      <h1>Level up your Style</h1>
+      <p class="header-para">With our Stunning Collections</p>
+      <button class="header-button">Shop Now</button>
+    </div>
+
+    <!-- service -->
+
+    <div class="service">
+      <div class="service-container-1">
+        <div>
+          <h2>We Provide Best</h2>
+          <h2>Customer Experience</h2>
+        </div>
+
+        <div>
+          <p>
+            || we ensure that our customer have the best Shopping Experience
+          </p>
+        </div>
+      </div>
+
+      <div class="service-container-2">
+        <div>
+          <i class="fa-regular fa-face-smile"></i>
+          <h4>Satisfcation gurrantee</h4>
+          <p>Ur happiness is our Happiness</p>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-bag"></i>
+          <h4>New arrivals Everday</h4>
+          <p>fast Shipping</p>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-car"></i>
+          <h4>New arrivals Everday</h4>
+          <p>fast Shipping</p>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

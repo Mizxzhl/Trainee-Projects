@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: bisque;
+
+    /* background-image: url('header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  */
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: burlywood;
+    background-color: black;
+
+
+
+}
+
+.navbar-links {
+
+    display: flex;
+    column-gap: 20px;
+
+}
+
+.navbar-links a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+.navbar-menu-toggle {
+    display: none;
+}
+
+
+/*side bar*/
+.side-navbar {
+    background-color: antiquewhite;
+    width: 40%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+
+    /*left -60 or*/
+    left: 0;
+    padding: 30px;
+
+    transform: translateX(-100%);
+    transition: transform 0.4s ease;
+}
+
+
+/* Remove bullet points */
+.side-navbar-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+}
+
+/* Space between items */
+.side-navbar-links li {
+    margin-bottom: 25px;
+}
+
+/* Link styling */
+.side-navbar-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.side-navbar-links a:hover {
+    color: brown;
+    padding-left: 10px;
+}
+
+
+/*Header*/
+
+.header{
+
+    
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    margin-top: 140px;
+    
+
+
+}
+
+.header-button{
+    
+    color: aliceblue;
+    background-color:black;
+   
+
+}
+
+.header-para{
+    padding-top: 10px;
+}
+
+.header-button{
+    margin: 10px;
+    padding: 10px;
+}
+
+.service{
+    padding: 20px;
+
+}
+
+.service-container-1{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-container-2{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+/*media Query*/
+
+@media screen and (max-width :700px) {
+    .navbar-menu-toggle {
+        display: block;
+    }
+
+    .navbar-links {
+
+        display: none;
+    }
+}
